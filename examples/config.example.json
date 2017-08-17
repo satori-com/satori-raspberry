@@ -1,0 +1,64 @@
+// Rename this config.example.json file to config.json
+{
+    "dev_mode": false, // Set to true to develop locally using FakeRPi module
+    "satori": {
+        "endpoint": "YOUR_ENDPOINT",
+        "appkey": "YOUR_APPKEY",
+        "role": "YOUR_ROLE", // Optional. Remove this line if you do not need auth
+        "role_secret_key": "YOUR_ROLE_SECRET" // Optional. Remove this line if you do not need auth
+    },
+    "channels": {
+        "in": "raspberry.in", // The name of the channel from which the Raspberry Pi will receive commands
+        "out": "raspberry.out" // The name of the channel to which the Raspberry Pi will output data
+    },
+    "skills": {
+        "general": {
+            "package": "satori_raspberry.skills.general",
+            "api": [
+                "cleanup", "ping", "setmode", "setup", "output", "input"
+            ]
+        },
+        "button": {
+            "package": "satori_raspberry.skills.button",
+            "api": [
+                "api_plug", "api_unplug"
+            ]
+        },
+        "temperature": {
+            "package": "satori_raspberry.skills.temperature",
+            "api": []
+        },
+        "humiture": {
+            "package": "satori_raspberry.skills.humiture",
+            "api": []
+        },
+        "led": {
+            "package": "satori_raspberry.skills.led",
+            "api": ["api_on", "api_off"]
+        },
+        "photoresistor": {
+            "package": "satori_raspberry.skills.photoresistor",
+            "api": []
+        },
+        "ir_obstacle": {
+            "package": "satori_raspberry.skills.ir_obstacle",
+            "api": []
+        },
+        "ir_controller": {
+            "package": "satori_raspberry.skills.ir_controller",
+            "api": []
+        },
+        "lcd": {
+            "package": "satori_raspberry.skills.lcd",
+            "api": []
+        },
+        "barometer": {
+            "package": "satori_raspberry.skills.barometer",
+            "api": []
+        },
+        "adc": {
+            "package": "satori_raspberry.skills.adc",
+            "api": []
+        }
+    }
+}
