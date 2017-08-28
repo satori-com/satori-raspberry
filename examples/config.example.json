@@ -1,6 +1,5 @@
 // Rename this config.example.json file to config.json
 {
-    "dev_mode": false, // Set to true to develop locally using FakeRPi module
     "satori": {
         "endpoint": "YOUR_ENDPOINT",
         "appkey": "YOUR_APPKEY",
