@@ -51,5 +51,5 @@ And then - run any example
 ```
 cp examples/config.example.json examples/config.json
 nano examples/config.json
-PYTHONPATH=. python3 hackathon.py
+PYTHONPATH=. python3 examples/hackathon.py
 ```
