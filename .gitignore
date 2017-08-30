@@ -2,3 +2,6 @@ denv/
 __pycache__
 config.json
 .vscode/
+build/
+dist/
+*.egg-info
