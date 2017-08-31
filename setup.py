@@ -22,7 +22,7 @@ Requirements
 
       sudo apt-get install python3-dev
 
-    or::  
+    or::
 
       sudo yum install python-devel
 
@@ -57,7 +57,7 @@ classifiers = [
 
 setup(
     name='satori-raspberry',
-    version='0.0.2',
+    version='0.0.3',
     description='Raspberry Pi framework to work with Satori',
     long_description=long_description,
     author='Satori Worldwide, Inc.',
