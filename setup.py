@@ -22,7 +22,7 @@ setup(
     description='Raspberry Pi framework to work with Satori',
     author='Satori Worldwide, Inc.',
     author_email='sdk@satori.com',
-    url='https://www.satori.com/',
+    url='https://github.com/satori-com/satori-raspberry',
     packages=find_packages(exclude=['examples']),
     install_requires=reqs,
     dependency_links=deps,
