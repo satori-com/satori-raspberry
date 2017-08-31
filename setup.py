@@ -13,6 +13,39 @@ dependencies = [
     'git+https://github.com/adafruit/Adafruit_Python_DHT#egg=Adafruit_DHT-1.3.2'
 ]
 
+long_description = '''
+Requirements
+------------------------------
+
+  - Installed **python3** and **pip3**
+  - Python3 devel package::
+
+      sudo apt-get install python3-dev
+
+    or::  
+
+      sudo yum install python-devel
+
+  - `libow-dev` to work with 1-wire sensors, like DHT11 or Temperature::
+
+      sudo apt-get install libow-dev
+
+  - `python3-smbus` package::
+
+      sudo apt-get install python3-smbus
+
+Installation
+------------------------------
+
+The latest Adafruit sensors library is located on GitHub: https://github.com/adafruit/Adafruit_Python_DHT
+
+In order to install this library we use `dependency_links`. So use `--process-dependency-links` flag when installing the satori-raspberry module::
+
+  pip3 install satori-raspberry --process-dependency-links
+
+**ATTENTION: The satori-raspberry framework uses GPIO library that can be compiled only in Raspberry Pi**
+'''
+
 classifiers = [
     'Development Status :: 4 - Beta',
     'Intended Audience :: Developers',
@@ -26,6 +59,7 @@ setup(
     name='satori-raspberry',
     version='0.0.2',
     description='Raspberry Pi framework to work with Satori',
+    long_description=long_description,
     author='Satori Worldwide, Inc.',
     author_email='sdk@satori.com',
     url='https://github.com/satori-com/satori-raspberry',

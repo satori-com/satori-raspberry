@@ -26,6 +26,11 @@ cd raspberry
 pip3 install -r requirements.txt
 ```
 
+or you can use pip (use `process-dependency-links` flag to install dependencies):
+```
+pip3 install satori-raspberry --process-dependency-links
+```
+
 **ATTENTION: The framework uses GPIO library that can be compiled only in Raspberry Pi**
 
 There are a lot of examples of how to work with different sensors and modules.
@@ -52,4 +57,12 @@ And then - run any example
 cp examples/config.example.json examples/config.json
 nano examples/config.json
 PYTHONPATH=. python3 examples/hackathon.py
+```
+
+or if you installed package via pip
+```
+cd examples
+cp config.example.json config.json
+nano config.json
+python3 hackathon.py
 ```
