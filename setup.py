@@ -61,7 +61,7 @@ classifiers = [
 
 setup(
     name='satori-raspberry',
-    version='0.0.3',
+    version='0.0.4',
     description='Raspberry Pi framework to work with Satori',
     long_description=long_description,
     author='Satori Worldwide, Inc.',
