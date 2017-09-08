@@ -1,14 +1,11 @@
-// Rename this config.example.json file to config.json
 {
     "satori": {
         "endpoint": "YOUR_ENDPOINT",
-        "appkey": "YOUR_APPKEY",
-        "role": "YOUR_ROLE", // Optional. Remove this line if you do not need auth
-        "role_secret_key": "YOUR_ROLE_SECRET" // Optional. Remove this line if you do not need auth
+        "appkey": "YOUR_APPKEY"
     },
     "channels": {
-        "in": "raspberry.in", // The name of the channel from which the Raspberry Pi will receive commands
-        "out": "raspberry.out" // The name of the channel to which the Raspberry Pi will output data
+        "in": "raspberry.in",
+        "out": "raspberry.out"
     },
     "skills": {
         "general": {
