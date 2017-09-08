@@ -10,7 +10,9 @@ requires = [
 ]
 
 dependencies = [
-    'git+https://github.com/adafruit/Adafruit_Python_DHT#egg=Adafruit_DHT-1.3.2'
+    'git+https://github.com/adafruit/Adafruit_Python_DHT#egg=Adafruit_DHT-1.3.2',
+    'git+https://github.com/adafruit/Adafruit_Python_GPIO.git#egg=Adafruit_GPIO-1.0.3',
+    'git+https://github.com/adafruit/Adafruit_Python_BMP.git#egg=Adafruit_BMP-1.5.2'
 ]
 
 long_description = '''
