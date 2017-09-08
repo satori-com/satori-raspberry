@@ -12,6 +12,9 @@ import threading
 
 from queue import Queue
 
+import sys
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
+
 from satori.rtm.client import make_client, SubscriptionMode
 from satori_raspberry.controller import Controller
 
