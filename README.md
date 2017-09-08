@@ -21,7 +21,7 @@ Installation
 ------------------------------
 Clone the repo:
 ```
-git clone git@github.com:satori-com/satori-raspberry.git
+git clone https://github.com/satori-com/satori-raspberry.git
 cd raspberry
 pip3 install -r requirements.txt
 ```
