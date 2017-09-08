@@ -6,6 +6,8 @@ requires = [
     'RPi.GPIO==0.6.3',
     'satori-rtm-sdk==1.3.0',
     'Adafruit_DHT>=1.3.2',
+    'Adafruit_GPIO>=1.0.3',
+    'Adafruit_BMP>=1.5.2',
     'smbus2==0.2.0'
 ]
 
